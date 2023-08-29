@@ -1,0 +1,191 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colors */
+
+:root {
+  --dark: #131922;
+  --purple: #7B4AE2;
+  --green: #0EE6B7;
+}
+
+
+html {
+  background-color: var(--dark);
+  font-family: 'Poppins', sans-serif;
+}
+
+.my-green {
+  color: var(--green);
+}
+
+.network {
+  height: fit-content;
+}
+
+.separator-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.separator {
+  background: linear-gradient(107.77deg, #0EE6B7 10.13%, #4370d9);
+  height: 4px;
+  width: 40px;
+  border-radius: 32px;
+}
+
+/* Estilo base para los enlaces */
+.network a {
+  transition: transform 0.3s ease;
+}
+
+.network a:hover {
+  transform: scale(1.1);
+}
+
+.frontend {
+  letter-spacing: 2.04px;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--green);
+}
+
+.main-pic figure img {
+  width: 90%;
+}
+
+.contact {
+  width: 100%;
+  gap: 10px;
+}
+
+.btn-link {
+  width: 170px;
+  height: 50px;
+  border: 1px solid var(--green);
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: transparent;
+  font-weight: 500;
+
+}
+
+.btn-link:hover {
+  background-color: var(--green);
+}
+
+.btn-link:hover i,
+.btn-link:hover span {
+  color: black;
+  font-weight: 500;
+}
+
+/* Mac card */
+
+.mac-card {
+  background-color: #171A1B;
+  border: 1px solid #4A4A4A;
+  border-radius: 20px 15px 0px 0px;
+  opacity: 0.800000011920929;
+  margin-top: 3rem;
+  width: auto;
+}
+
+.mac-card header {
+  width: 380px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mac-w-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 20px;
+  background-color: #20252D;
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 20px;
+  padding: 1px;
+}
+
+.code-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+}
+
+.aboutme {
+  display: inline;
+}
+
+.aboutme,
+.education {
+  color: rgb(255, 255, 255);
+}
+
+
+.title {
+  color: var(--green);
+}
+
+.study {
+  color: white;
+}
+
+.aboutme,
+.education,
+.tab {
+  margin-left: 20px;
+}
+
+
+.skills-icon-card i {
+  font-size: 6rem;
+  color: rgb(223, 223, 223);
+}
+
+.skills-icon-card p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+/* Footer */
+
+.footer-network {
+  width: 200px;
+}
+
+.footer-network a {
+  font-size: 3rem;
+  color: white;
+}
+
+.mail {
+  color: var(--green);
+}
+
+.mail:hover {
+  color: #34b8e0;
+}
+
+hr {
+  border: 1px solid rgb(68, 68, 68);
+  width: 80%;
+}
